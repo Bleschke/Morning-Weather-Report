@@ -44,6 +44,8 @@ for line in urllib2.urlopen("http://isc.sans.edu/infocon.txt"):
 		v.speak('Orange.Major threats and disruption in connectivity.')
    	elif line == 'red':
 		v.speak('Red. Serious Threats and Loss of connection across internet.')
+	elif line == 'blue':
+		v.speak('Blue. System Testing.')
   	else:
 		v.speak('Error: unable to find threat level.')
 
